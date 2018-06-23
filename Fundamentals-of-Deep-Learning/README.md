@@ -1,4 +1,4 @@
-# fundamentals_of_deep_learning
+# Fundamentals_of_Deep_Learning
 
 Tensorflowを用いた深層学習のサンプルコード
 
@@ -14,3 +14,9 @@ Tensorflowを用いた深層学習のサンプルコード
     - Memory : 8GB
     - CPU : Intel® Core™ i7-7700
     - GPU : GeForce GTX 1050-Ti
+
+## Contens
+* [Tensorflowを使ったNNの実装]()
+* [畳み込みニューラルネットワーク]()
+* [埋め込み学習と表現学習]()
+* [深層強化学習]()
