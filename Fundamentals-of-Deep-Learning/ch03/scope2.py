@@ -16,6 +16,8 @@ def layer(input, weight_shape, bias_shape):
     bias_init = tf.constant_initializer(value=0)
     W = tf.get_variable("W", weight_shape, initializer=weight_init)
     b = tf.get_variable("b", bias_shape, initializer=bias_init)
+    print("Print names of Variables")
+    print(W.name, b.name)
     return tf.matmul(input, W) + b
 
 

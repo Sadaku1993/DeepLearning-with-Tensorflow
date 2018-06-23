@@ -19,6 +19,10 @@ Variableの有効範囲を指定する
 python scope2.py
 ```
 
+## CPUとGPU上でのモデルの管理
+```
+python device.py
+```
 
 ## ロジスティク回帰モデルの実装
 ```

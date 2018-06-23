@@ -23,5 +23,3 @@ x_vals = np.array([[1., 2., 3., 4., 5.],
 feed_dict = { x : x_vals }
 
 print(sess.run(output, feed_dict=feed_dict))
-
-
